@@ -1,6 +1,6 @@
-package org.jetbrains.plugins.template.services
+package com.github.liplum.mgppi.services
 
-import org.jetbrains.plugins.template.MyBundle
+import com.github.liplum.mgppi.MyBundle
 
 class MyApplicationService {
 
