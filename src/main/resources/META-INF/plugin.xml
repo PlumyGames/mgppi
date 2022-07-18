@@ -1,7 +1,7 @@
 <!-- Plugin Configuration File. Read more: https://plugins.jetbrains.com/docs/intellij/plugin-configuration-file.html -->
 <idea-plugin>
     <id>com.github.liplum.mgppi</id>
-    <name>mgppi</name>
+    <name>Mindustry Modding</name>
     <vendor>liplum</vendor>
 
     <depends>com.intellij.modules.platform</depends>
@@ -12,7 +12,7 @@
     </extensions>
 
     <applicationListeners>
-        <listener class="com.github.liplum.mgppi.listeners.MyProjectManagerListener"
+        <listener class="com.github.liplum.mgppi.services.MyProjectManagerListener"
                   topic="com.intellij.openapi.project.ProjectManagerListener"/>
     </applicationListeners>
 </idea-plugin>
